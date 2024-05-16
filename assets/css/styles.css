@@ -114,11 +114,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-  .applications a {
-    width: 100%; /* Make the application links take 100% of the width */
-    margin: 10px 0; /* Add vertical margin for spacing */
-    max-width: none; /* Remove max-width to allow full width */
+
+  .applications .application {
+    width: calc(50% - 10px); /* Adjust width for two applications per row with some spacing */
+    margin-bottom: 20px; /* Add spacing between rows */
     text-decoration: none;
     color: var(--dark);
     background-color: var(--secondary);
@@ -126,16 +125,30 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-  }
-  
-  .applications a:hover {
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Set a height for the application anchor */
+    display: flex;
+    align-items: flex-end; /* Align title to the bottom */
+    justify-content: center;
+}
+
+.applications .application:hover {
     transform: translateY(-5px);
-  }
-  
-  .applications img {
-    max-width: 100%;
-    height: auto;
-  }
+}
+
+.applications .application-title {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--light);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* Enlarge the first application */
+.applications .application:first-child {
+    height: 750px; /* Increase this value as needed */
+    width: 100%
+}
   
   /* Media Queries */
   @media (max-width: 768px) {
