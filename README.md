@@ -5,8 +5,9 @@ This portfolio showcases a developer's, AKA me, work and experience. Upon loadin
 
 ## Deployed Page Screenshot
 
-![Screenshot of Deployed Application](./public/assets/images/Note-Taker%201-4.png)
-![Screenshot of Deployed Application](./public/assets/images/Note-Taker%202-4.png)
+![Screenshot of Deployed Application](./assets/images/MyPortfolioSS%201-3.png)
+![Screenshot of Deployed Application](./assets/images/MyPortfolioSS%202-3.png)
+![Screenshot of Deployed Application](./assets/images/MyPortfolioSS%203-3.png)
 
 ### Links
 
