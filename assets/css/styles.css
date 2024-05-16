@@ -86,7 +86,7 @@
   
   /* Section Styles */
   section {
-    padding: 40px 0;
+    padding: 100px 0;
   }
   
   section h2 {
@@ -116,8 +116,9 @@
   }
   
   .applications a {
-    margin: 10px;
-    max-width: 300px;
+    width: 100%; /* Make the application links take 100% of the width */
+    margin: 10px 0; /* Add vertical margin for spacing */
+    max-width: none; /* Remove max-width to allow full width */
     text-decoration: none;
     color: var(--dark);
     background-color: var(--secondary);
