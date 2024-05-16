@@ -1,7 +1,7 @@
 # My Portfolio Application
 ## Description
 
-The Note Taker application offers a simple interface for creating, viewing, and managing notes. Users are greeted with a landing page that links to a notes page showing existing notes and fields for new notes. Saved notes appear in the list, and intuitive navigation buttons make it easy to view or create notes. This app ensures seamless note-taking and organization.
+This portfolio showcases a developer's, AKA me, work and experience. Upon loading, you'll see the developer's name, photo or avatar, and links to sections about them, their work, and contact info. Navigation links enable scrolling to each section, with the work section displaying titled images of their applications. The first application's image is larger, and clicking on any application image redirects to the deployed app. The responsive design ensures optimal viewing on all devices and screen sizes.
 
 ## Deployed Page Screenshot
 
