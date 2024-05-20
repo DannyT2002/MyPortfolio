@@ -1,182 +1,182 @@
 /* General Styles */
 * {
-  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
 }
 
 :root {
-  /* Define CSS variables for color scheme */
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(167, 208, 184, 1);
-  --dark: rgba(28, 29, 33, 1);
-  --light: rgba(238, 238, 282, 1);
+    /* Define CSS variables for color scheme */
+    --primary: rgba(68, 88, 119, 1);
+    --secondary: rgba(146, 204, 206, 1);
+    --tertiary: rgba(167, 208, 184, 1);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 282, 1);
 }
 
 body {
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font stack for body text */
-  line-height: 1.5; /* Set line height for readability */
-  background-color: var(--light); /* Set background color */
-  color: var(--dark); /* Set text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font stack for body text */
+    line-height: 1.5; /* Set line height for readability */
+    background-color: var(--light); /* Set background color */
+    color: var(--dark); /* Set text color */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0; /* Remove default margin for headings */
+    margin: 0; /* Remove default margin for headings */
 }
 
 p {
-  margin: 0; /* Remove default margin for paragraphs */
-  font-size: 23px; /* Set font size for paragraphs */
+    margin: 0; /* Remove default margin for paragraphs */
+    font-size: 23px; /* Set font size for paragraphs */
 }
 
 /* Header Styles */
 header {
-  padding: 15px 6% 15px 0; /* Padding for header */
-  display: flex; /* Flexbox for header layout */
-  flex-direction: row; /* Row direction for flex items */
-  justify-content: space-between; /* Space between items */
-  align-items: center; /* Center items vertically */
-  background-color: var(--primary); /* Header background color */
-  flex-wrap: wrap; /* Allow items to wrap */
-  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2); /* Add shadow to header */
+    padding: 15px 6% 15px 0; /* Padding for header */
+    display: flex; /* Flexbox for header layout */
+    flex-direction: row; /* Row direction for flex items */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    background-color: var(--primary); /* Header background color */
+    flex-wrap: wrap; /* Allow items to wrap */
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2); /* Add shadow to header */
 }
 
 header h1 {
-  background-color: var(--secondary); /* Background color for header title */
-  color: var(--dark); /* Text color for header title */
-  padding: 5px 1% 5px 6%; /* Padding for header title */
-  margin: 0; /* Remove default margin */
-  font-size: 4vw; /* Responsive font size */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font stack for header title */
-  line-height: 1; /* Line height for header title */
+    background-color: var(--secondary); /* Background color for header title */
+    color: var(--dark); /* Text color for header title */
+    padding: 5px 1% 5px 6%; /* Padding for header title */
+    margin: 0; /* Remove default margin */
+    font-size: 4vw; /* Responsive font size */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font stack for header title */
+    line-height: 1; /* Line height for header title */
 }
 
 nav {
-  display: flex; /* Flexbox for nav layout */
-  flex-direction: row; /* Row direction for flex items */
-  flex-wrap: wrap; /* Allow items to wrap */
+    display: flex; /* Flexbox for nav layout */
+    flex-direction: row; /* Row direction for flex items */
+    flex-wrap: wrap; /* Allow items to wrap */
 }
 
 nav a {
-  text-decoration: none; /* Remove underline from links */
-  padding: 5px 10px; /* Padding for nav links */
-  color: var(--light); /* Text color for nav links */
-  margin: 16px; /* Margin for nav links */
-  background-image: linear-gradient(270deg, var(--secondary), var(--secondary)); /* Gradient for nav link background */
-  background-repeat: no-repeat; /* Prevent background from repeating */
-  background-size: 100% 0.2em; /* Initial size for background */
-  background-position: bottom; /* Position background at bottom */
-  transition: all 0.25s ease-in; /* Smooth transition for background size */
-  font-size: 1.4rem; /* Font size for nav links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Padding for nav links */
+    color: var(--light); /* Text color for nav links */
+    margin: 16px; /* Margin for nav links */
+    background-image: linear-gradient(270deg, var(--secondary), var(--secondary)); /* Gradient for nav link background */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    background-size: 100% 0.2em; /* Initial size for background */
+    background-position: bottom; /* Position background at bottom */
+    transition: all 0.25s ease-in; /* Smooth transition for background size */
+    font-size: 1.4rem; /* Font size for nav links */
 }
 
 nav a:hover {
-  background-size: 100% 100%; /* Full background size on hover */
-  color: var(--dark); /* Text color on hover */
+    background-size: 100% 100%; /* Full background size on hover */
+    color: var(--dark); /* Text color on hover */
 }
 
 nav a:last-child {
-  margin-right: 0; /* Remove right margin from last nav link */
+    margin-right: 0; /* Remove right margin from last nav link */
 }
 
 /* Section Styles */
 section {
-  padding: 100px 0; /* Padding for sections */
+    padding: 100px 0; /* Padding for sections */
 }
 
 section h2 {
-  font-size: 2.5rem; /* Font size for section titles */
-  margin-bottom: 20px; /* Bottom margin for section titles */
-  align-self: flex-start; /* Align section titles to the start */
-  color: var(--primary); /* Text color for section titles */
+    font-size: 2.5rem; /* Font size for section titles */
+    margin-bottom: 20px; /* Bottom margin for section titles */
+    align-self: flex-start; /* Align section titles to the start */
+    color: var(--primary); /* Text color for section titles */
 }
 
 .profile {
-  display: flex; /* Flexbox for profile layout */
-  justify-content: center; /* Center profile content */
-  align-items: center; /* Center profile content vertically */
-  margin-bottom: 40px; /* Bottom margin for profile */
+    display: flex; /* Flexbox for profile layout */
+    justify-content: center; /* Center profile content */
+    align-items: center; /* Center profile content vertically */
+    margin-bottom: 40px; /* Bottom margin for profile */
 }
 
 .profile img {
-  max-width: 200px; /* Max width for profile image */
-  border-radius: 50%; /* Round profile image */
-  margin-right: 20px; /* Right margin for profile image */
+    max-width: 200px; /* Max width for profile image */
+    border-radius: 50%; /* Round profile image */
+    margin-right: 20px; /* Right margin for profile image */
 }
 
 .applications {
-  display: flex; /* Flexbox for applications layout */
-  flex-wrap: wrap; /* Allow items to wrap */
-  justify-content: center; /* Center applications */
+    display: flex; /* Flexbox for applications layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center applications */
 }
 
 .applications .application {
-  width: calc(50% - 10px); /* Adjust width for two applications per row with some spacing */
-  margin-bottom: 20px; /* Add spacing between rows */
-  text-decoration: none; /* Remove underline from application links */
-  color: var(--dark); /* Text color for application links */
-  background-color: var(--secondary); /* Background color for application links */
-  padding: 10px; /* Padding for application links */
-  border-radius: 5px; /* Rounded corners for application links */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for application links */
-  transition: transform 0.3s ease; /* Smooth transition for transform */
-  background-size: cover; /* Cover background size */
-  background-position: center; /* Center background position */
-  height: 200px; /* Set height for application anchor */
-  display: flex; /* Flexbox for application content */
-  align-items: flex-end; /* Align title to the bottom */
-  justify-content: center; /* Center title horizontally */
+    width: calc(50% - 10px); /* Adjust width for two applications per row with some spacing */
+    margin-bottom: 20px; /* Add spacing between rows */
+    text-decoration: none; /* Remove underline from application links */
+    color: var(--dark); /* Text color for application links */
+    background-color: var(--secondary); /* Background color for application links */
+    padding: 10px; /* Padding for application links */
+    border-radius: 5px; /* Rounded corners for application links */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for application links */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+    background-size: cover; /* Cover background size */
+    background-position: center; /* Center background position */
+    height: 200px; /* Set height for application anchor */
+    display: flex; /* Flexbox for application content */
+    align-items: flex-end; /* Align title to the bottom */
+    justify-content: center; /* Center title horizontally */
 }
 
 .applications .application:hover {
-  transform: translateY(-5px); /* Slight lift effect on hover */
+    transform: translateY(-5px); /* Slight lift effect on hover */
 }
 
 .applications .application-title {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for titles */
-  color: var(--light); /* Text color for titles */
-  padding: 5px 10px; /* Padding for titles */
-  border-radius: 3px; /* Rounded corners for titles */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for titles */
+    color: var(--light); /* Text color for titles */
+    padding: 5px 10px; /* Padding for titles */
+    border-radius: 3px; /* Rounded corners for titles */
 }
 
 /* Enlarge the first application */
 .applications .application:first-child {
-  height: 750px; /* Increase this value as needed */
-  width: 100%; /* Full width for first application */
+    height: 750px; /* Increase this value as needed */
+    width: 100%; /* Full width for first application */
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
-  header {
-      flex-direction: column; /* Stack header items vertically */
-      align-items: center; /* Center header items horizontally */
-      text-align: center; /* Center text in header */
-  }
+    header {
+        flex-direction: column; /* Stack header items vertically */
+        align-items: center; /* Center header items horizontally */
+        text-align: center; /* Center text in header */
+    }
 
-  header h1 {
-      font-size: 8vw; /* Responsive font size */
-      padding: 10px; /* Padding for header title */
-  }
+    header h1 {
+        font-size: 8vw; /* Responsive font size */
+        padding: 10px; /* Padding for header title */
+    }
 
-  nav ul {
-      margin-top: 20px; /* Top margin for nav list */
-      display: flex; /* Flexbox for nav list */
-      flex-direction: column; /* Stack nav items vertically */
-      align-items: center; /* Center nav items horizontally */
-  }
+    nav ul {
+        margin-top: 20px; /* Top margin for nav list */
+        display: flex; /* Flexbox for nav list */
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center; /* Center nav items horizontally */
+    }
 
-  nav a {
-      margin: 10px 0; /* Vertical margin for nav links */
-  }
+    nav a {
+        margin: 10px 0; /* Vertical margin for nav links */
+    }
 
-  .profile {
-      flex-direction: column; /* Stack profile content vertically */
-      align-items: center; /* Center profile content horizontally */
-  }
+    .profile {
+        flex-direction: column; /* Stack profile content vertically */
+        align-items: center; /* Center profile content horizontally */
+    }
 
-  .profile img {
-      margin-right: 0; /* Remove right margin for profile image */
-      margin-bottom: 20px; /* Bottom margin for profile image */
-  }
+    .profile img {
+        margin-right: 0; /* Remove right margin for profile image */
+        margin-bottom: 20px; /* Bottom margin for profile image */
+    }
 }
